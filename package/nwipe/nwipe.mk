@@ -4,8 +4,7 @@
 #
 ################################################################################
 
-NWIPE_VERSION = v0.38
-NWIPE_SITE = $(call github,TomiZS,nwipe,$(NWIPE_VERSION))
+NWIPE_SITE = $(call github,TomiZS,nwipetest)
 NWIPE_DEPENDENCIES = ncurses parted dmidecode coreutils
 
 define NWIPE_INITSH
